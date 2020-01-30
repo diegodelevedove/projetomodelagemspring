@@ -5,21 +5,20 @@
  */
 package com.example.codigos.resources;
 
-import com.example.codigos.domain.Categoria;
+//import com.example.codigos.domain.Categoria;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import com.example.codigos.domain.Pedido;
-import com.example.codigos.dto.CategoriaDTO;
+//import com.example.codigos.dto.CategoriaDTO;
 import com.example.codigos.services.PedidoService;
 import java.net.URI;
-import java.util.ArrayList;// Esses imports se devem a mudanças que fizemos
-import java.util.List;
-import java.util.Optional;
-import javafx.scene.media.Media;
+//import java.util.ArrayList;// Esses imports se devem a mudanças que fizemos
+//import java.util.List;
+//import java.util.Optional;
 import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
+//import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
